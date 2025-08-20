@@ -1,7 +1,10 @@
 # 🛡️ DNSChanger & Region Firewall Manager  
 
-**DNSChanger** is a Windows tool that lets you quickly switch DNS servers and block entire IP ranges of regions/countries through Windows Firewall.  
-It is designed to improve security, manage network access, and provide full control over which regions can connect.  
+**DNSChanger** is a lightweight Windows tool for managing DNS servers and blocking entire IP ranges of regions/countries through Windows Firewall.  
+It is designed for gamers and advanced users who want **safe control over DNS, regions, and system updates** – without hidden risks.  
+
+⚠️ This application is **not a virus** and contains nothing harmful.  
+It uses standard Windows tools (PowerShell & `netsh`) to apply DNS and firewall changes securely.  
 
 ---
 
@@ -9,44 +12,51 @@ It is designed to improve security, manage network access, and provide full cont
 
 - **DNS Switching**  
   - Predefined DNS options (Shekan, Electro, Begzar, 403, etc.)  
-  - Ability to add and select custom DNS servers  
+  - Add and select custom DNS servers  
 
 - **Region Blocking via Firewall**  
   - Blocks all regions except the selected one  
-  - Automatically splits IP ranges into smaller batches (max 150 per rule)  
-  - Creates **both TCP and UDP firewall rules** for full coverage  
-  - Resets previously created rules before applying new ones  
+  - Splits large IP ranges into smaller batches (max 150 per rule)  
+  - Creates **both TCP and UDP rules** for complete coverage  
+  - Resets old firewall rules before applying new ones  
 
-- **Logging**  
-  - Displays blocked IPs in groups of 5 for better readability  
-  - Shows success/error messages for each applied batch  
-
-- **UI/UX**  
-  - Simple and user-friendly Windows Forms interface  
-  - ComboBox selection for regions  
-  - Status label showing which region is open  
+- **Logging & Monitoring**  
+  - Shows blocked IPs in groups of 5 for readability  
+  - Displays success/error messages for each applied batch  
   - Real-time ping monitoring for the selected region  
 
----
-
-## 🚀 Next Update (Planned Features)  
-
-- **Whitelist Support**  
-  - Add custom IPs or domains that will never be blocked  
-
-- **Scheduler**  
-  - Automatic block/unblock of regions at specific times  
-
-- **Export & Reports**  
-  - Save logs and firewall rules to TXT/JSON files  
-
-- **GeoIP Lookup**  
-  - Dynamically block countries using GeoIP instead of static lists  
-
-- **Advanced Rule Management UI**  
-  - Display all created firewall rules in-app  
-  - Allow users to delete or edit rules manually  
+- **User Interface**  
+  - Clean and user-friendly Windows Forms design  
+  - ComboBox for region selection  
+  - Status label showing which region is open  
 
 ---
 
-🔥 With **DNSChanger**, you can easily take control of your network and keep only the regions you trust open.  
+## ✨ What’s New in Version 2
+- **Game Mode** – Temporarily disable all Windows Updates while gaming to prevent background interruptions.  
+- **Improved UI** – Redesigned interface with smoother user experience.  
+- **Bug Fixes** – Increased stability and reliability.  
+- **Safe Firewall Rules** – More efficient region blocking with improved rule handling.  
+
+---
+
+## 🚀 Planned Features (Next Update)  
+
+- **Whitelist Support** – Add custom IPs or domains that bypass blocking  
+- **Scheduler** – Automatically block/unblock regions at specific times  
+- **Export & Reports** – Save logs and firewall rules to TXT/JSON files  
+- **GeoIP Lookup** – Dynamically block countries using GeoIP data  
+- **Advanced Rule Manager** – View, edit, or remove firewall rules inside the app  
+
+---
+
+## ⚠️ Important Notes
+1. The app **may request Administrator privileges** – this is required for DNS and firewall changes.  
+2. If you see errors when applying DNS/region changes, press **Continue**, then close and restart the app.  
+3. **Do not install the program in Drive C:** – use another location to avoid permission issues.  
+4. If antivirus shows a warning during region setup, it is safe: the app only creates firewall rules to block foreign IP ranges.  
+5. DNSChanger contains **no malware, hidden processes, or dangerous code** – only the functions described here.  
+
+---
+
+✅ With **DNSChanger v2**, you can take full control of your DNS, block unwanted regions, and enjoy safer gaming with zero background updates.  
