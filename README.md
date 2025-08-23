@@ -1,5 +1,10 @@
 # 🛡️ DNSChanger & Region Firewall Manager  
-<img width="400" height="400" align="center" alt="image" src="https://github.com/user-attachments/assets/05acd90d-60bf-4e1c-977b-0775d2d6262c" />
+
+https://t.me/DNSchanger_M
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2fadcfa8-6afb-4d3c-8a11-aa0fc7a3773b" width="400" height="400" />
+</p>
+
 
 
 **DNSChanger** is a lightweight Windows tool for managing DNS servers and blocking entire IP ranges of regions/countries through Windows Firewall.  
