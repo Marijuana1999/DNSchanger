@@ -7,7 +7,11 @@ It is designed for gamers and advanced users who want **safe control over DNS, r
 It uses standard Windows tools (PowerShell & `netsh`) to apply DNS and firewall changes securely.  
 
 ---
-
+<p align="center">
+  <img src="images/Menu1.png" width="200"/>
+  <img src="images/Menu2.png" width="200"/>
+  <img src="images/Serverpicker.png" width="200"/>
+</p>
 ## ✅ Current Features  
 
 - **DNS Switching**  
